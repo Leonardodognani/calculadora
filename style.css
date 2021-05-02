@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900');
+body {
+  width : 100%;
+  height : 750px;
+  display: flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebedef;
+  padding: 0;
+  margin: 0;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc {
+  display: flex;
+  flex-direction : column;
+  width: 350px;
+  height: 600px;
+  margin : 10px;
+  background-color: #000000;
+  background-image: linear-gradient(100deg, #000000 0%, #000080 200%);
+  border-radius: 20px;
+  box-shadow : 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+
+.calc-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc-title-span {
+  color: #0000cd;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.calc-title-hr {
+  width: 200px;
+  height: 3px;
+  background-color: #0000cd;
+  opacity: 0.8;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  color: #fff; 
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+
+.secondary-display{
+  font-size:20px;
+  opacity : 0.8;
+  overflow-x : hidden;
+}
+
+.secondary-display::-webkit-scrollbar {
+  height : 10px;
+  background-color: #0000ff;
+  opacity: 0.7;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.secondary-display::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #000000;
+    border: 3px solid #555555;
+}
+
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.primary-display::-webkit-scrollbar {
+  height : 4px;
+  background-color: #0000ff;
+  opacity: 0.7;
+}
+.primary-display::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #000000;
+    border: 3px solid #0000ff;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc-display-hr {
+  width: 250px;
+  height: 2px;
+  margin-top: 10px;
+  align-self: center;
+  background-color: #0000ff;
+  opacity: 0.4;
+}
+
+.calc-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc-btn-primary {
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #0000ff;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #0000ff;
+  border-radius: 100%;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.btn-bg{
+  background-color:#1e90ff !important;
+  opacity : 0.9;
+  border : none !important;
+}
+.btn-bg-equal{
+  background-color:#000000!important;
+  border : none !important;
+}
+.calc-btn-primary:focus {
+  outline:none
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc-btn-primary:active {
+  transform: scale(0.9);
+}
+
+.calc-btn-clear {
+  margin: 20px 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 90px;
+  border: 3px solid #0000ff;
+  border-radius: 10px;
+}
+/*flex-direction : column;
+  justify-content: center;
+  align-items: center;*/
+.calc-btn-clear:active {
+  transform: scale(0.9);
+}
+
+body {
+  background-image: url("https://i.redd.it/ymbqtcxl6ri21.jpg");
+}
