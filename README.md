@@ -8,3 +8,5 @@
 * Projeto criado originalmente no CodePen, transferido para o VScode e posto aqui.
 
 🚀 🚀 🚀
+
+![calc](https://user-images.githubusercontent.com/82122343/117519471-01713780-af7a-11eb-9e76-0cec76d09ea7.png)
